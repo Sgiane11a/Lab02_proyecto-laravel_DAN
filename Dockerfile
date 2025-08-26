@@ -1,5 +1,5 @@
 # Usa la imagen oficial de PHP con Apache
-FROM php:8.1-apache
+FROM php:8.2-fpm
 
 # Instala extensiones necesarias para Laravel (pdo_mysql, mbstring, etc.)
 RUN apt-get update && apt-get install -y \
